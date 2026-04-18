@@ -206,7 +206,7 @@ function showDay(day, btn = null) {
       <div class="sleep">
         <span class="sleep-emoji">😴</span>
         <div class="sleep-title">Rest Day!</div>
-        <div class="sleep-sub">No classes today. Shin-chan approves.</div>
+        <div class="sleep-sub">No classes today. Harry Potter approves!</div>
       </div>`;
     updatePopup(null, day);
     return;

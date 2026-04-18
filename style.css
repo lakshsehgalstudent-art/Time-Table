@@ -563,25 +563,6 @@ body.theme-laksh .tag.lecture {
   70%       { transform: translateY(-5px) rotate(-2deg); }
 }
 
-/* ===== PEEKING CHARACTER ===== */
-.shinchan-peek {
-  position: fixed;
-  bottom: 110px;
-  right: -10px;
-  z-index: 50;
-  pointer-events: none;
-  animation: peekBounce 3s ease-in-out infinite;
-}
-.shinchan-peek img {
-  width: 64px;
-  opacity: 0.85;
-  filter: drop-shadow(0 4px 12px rgba(0,0,0,0.4));
-}
-@keyframes peekBounce {
-  0%, 100% { transform: translateY(0) translateX(0); }
-  40%       { transform: translateY(-12px) translateX(-4px); }
-}
-
 /* ===== POPUP ===== */
 .popup {
   position: fixed;
